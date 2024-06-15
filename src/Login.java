@@ -27,7 +27,7 @@ import java.awt.event.*;
         JLabel name = new JLabel("Enter your name");
         name.setBounds(810, 150, 300, 20);
         name.setFont(new Font("Mongolian Baiti", Font.BOLD, 18));
-        name.setForeground(new Color(255, 255, 0));
+        name.setForeground(new Color(30, 144, 254));
         add(name);
 
         tfname = new JTextField();
