@@ -18,7 +18,7 @@ import java.awt.event.*;
         image.setBounds(0, 200, 300, 250);
         add(image);
 
-        JLabel heading = new JLabel("Thankyou " + name + " for playing Simple Minds");
+        JLabel heading = new JLabel("Thankyou " + name + " for playing quiz");
         heading.setBounds(45, 30, 700, 30);
         heading.setFont(new Font("Tahoma", Font.PLAIN, 26));
         add(heading);
