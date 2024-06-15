@@ -21,7 +21,7 @@ import java.awt.event.*;
         JLabel heading = new JLabel("Adil's quiz application");
         heading.setBounds(750, 60, 300, 45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40));
-        heading.setForeground(new Color(255, 255, 0));
+        heading.setForeground(new Color(30, 144, 254));
         add(heading);
 
         JLabel name = new JLabel("Enter your name");
