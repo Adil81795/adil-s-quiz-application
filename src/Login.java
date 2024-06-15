@@ -59,7 +59,7 @@ import java.awt.event.*;
         if (ae.getSource() == rules) {
             String name = tfname.getText();
             setVisible(false);
-//            new Rules(name);
+            new Rules(name);
         } else if (ae.getSource() == back) {
             setVisible(false);
         }
