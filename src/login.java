@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Login extends JFrame implements ActionListener{
+ class Login extends JFrame implements ActionListener{
 
     JButton rules, back;
     JTextField tfname;
@@ -21,13 +21,13 @@ public class Login extends JFrame implements ActionListener{
         JLabel heading = new JLabel("Adil's quiz application");
         heading.setBounds(750, 60, 300, 45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40));
-        heading.setForeground(new Color(30, 144, 254));
+        heading.setForeground(new Color(255, 255, 0));
         add(heading);
 
         JLabel name = new JLabel("Enter your name");
         name.setBounds(810, 150, 300, 20);
         name.setFont(new Font("Mongolian Baiti", Font.BOLD, 18));
-        name.setForeground(new Color(30, 144, 254));
+        name.setForeground(new Color(255, 255, 0));
         add(name);
 
         tfname = new JTextField();
@@ -37,7 +37,8 @@ public class Login extends JFrame implements ActionListener{
 
         rules = new JButton("Rules");
         rules.setBounds(735, 270, 120, 25);
-        rules.setBackground(new Color(30, 144, 254));
+        rules.setBackground(new Color(255, 0, 0));
+
         rules.setForeground(Color.WHITE);
         rules.addActionListener(this);
         add(rules);
@@ -58,7 +59,7 @@ public class Login extends JFrame implements ActionListener{
         if (ae.getSource() == rules) {
             String name = tfname.getText();
             setVisible(false);
-            new Rules(name);
+//            new Rules(name);
         } else if (ae.getSource() == back) {
             setVisible(false);
         }
